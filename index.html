@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="head">
+            <h1>Quiz</h1>
+        </div>
+
+        <h3>Who is the Prime Minister of India?</h3>
+        <ol>
+            <li>Narendra Modi</li>
+            <li>N Biren Singh</li>
+            <li>O Ibobi</li>
+            <li>Amit Shaha</li>
+        </ol>
+
+        <div class="correct" id="correct">
+            Your choice is correct
+        </div>
+
+        <div class="error" id="error">
+            Wrong ans
+        </div>
+
+        <input class="input" id="input" type="text"   placeholder="enter your choice" required >
+        <button class="btn" id="btn" onclick="checkAns()">Submit</button>
+        <button class="btn" id="btn" onclick="Try()">Try again</button>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

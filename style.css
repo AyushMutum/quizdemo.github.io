@@ -1,0 +1,44 @@
+
+.container{
+    border: 1px solid gray;
+    border-radius: 18px;
+    width: 400px;
+   padding: 40px;
+    margin: 30px auto;
+    
+}
+
+.input{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 18px;
+    border: 1px solid gray;
+}
+
+.btn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.correct{
+    width: 50%;
+    background-color: rgb(21, 240, 21);
+    color: rgb(13, 155, 13);
+    padding: 10px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
+
+
+.error{
+    width: 50%;
+    background-color: rgb(246, 5, 5);
+    color: rgb(96, 6, 6);
+    padding: 10px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
